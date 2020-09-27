@@ -1,2 +1,2 @@
 # zhongjingwen
-zuoye
+zuoye1).在D:\nodejs\node_modules下新建两个文件夹，node_global、node_cache(2).cmd中执行命令npm config set prefix 'D:\nodejs\node_modules\node_global'，npm config set cache 'D:\nodejs\node_modules\node_cache'(3).配置系统环境变量，增加NODE_PATH=D:\nodejs\node_modules\node_global\node_modules，Path中增加D:\nodejs\node_modules\node_global(4).cmd中执行命令npm config ls，查看配置是否正确3.git安装，下载https://git-scm.com/download(1).生成ssh，cmd中执行命令ssh-keygen，添加用户目录下.ssh文件夹中的id_rsa.pub内容到git添加ssh key(2).git config --global user.name 'xxx'    git config --global user.email 'xxx'
